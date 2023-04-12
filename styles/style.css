@@ -331,3 +331,17 @@ body {
   font-size: var(--fs-xs);
   line-height: 140%;
 }
+
+/* footer */
+
+.info-footer {
+  display: flex;
+}
+.info-messenger {
+  display: flex;
+  flex-direction: column;
+}
+.info-messenger-icon img {
+  width: 40px;
+  height: 40px;
+}
