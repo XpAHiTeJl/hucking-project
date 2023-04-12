@@ -184,5 +184,65 @@ body {
   padding-top: 37px;
   font-family: var(--third-font);
   font-weight: 600;
+  font-size: var(--fs-m);
+  line-height: 124.52%;
+}
+/* bestsellers */
+/* .bestsellers-box__subtitle {
+  padding-top: 37px;
+  font-family: var(--third-font);
+  font-weight: 600;
+  font-size: var(--fs-m);
+  line-height: 124.52%;
+} */
+.bestsellers-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 37px;
+  font-family: var(--third-font);
+  font-weight: 600;
+  font-size: var(--fs-m);
+  line-height: 124.52%;
+}
+.price {
+  padding-right: 19px;
+}
+.price-button {
+  border: 1px solid #000000;
+  border-radius: 3px;
+  background-color: inherit;
+  width: 40px;
+  height: 40px;
+}
+/* Catalog button bottom */
+.catalog-box__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.catalog__button_left,
+.catalog__button {
+  width: 12px;
+  height: 12px;
+  background: #777777;
+  border-radius: 3px;
+}
+.catalog__button {
+  background: #dfdfdf;
+  margin-left: 13px;
+}
+.catalog-down-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.catalog-button-down {
+  width: 200px;
+  height: 58px;
+  border: 1px solid #2e2927;
+  background-color: inherit;
+  font-weight: 400;
+  font-size: var(--fs-s);
   line-height: 124.52%;
 }
