@@ -21,6 +21,11 @@ li {
   padding: 0px calc(var(--padding-l) + 1px);
   font-family: var(--primary-font);
 }
+/* Боди дописал,что бы по центру было на экране */
+body {
+  display: flex;
+  justify-content: center;
+}
 
 .logo {
   width: 94px;
@@ -147,6 +152,14 @@ li {
 .block-benefit-subtitle-three {
   width: 261px;
   height: 46px;
+}
+.benefits-banner {
+  padding-top: 160px;
+  margin-left: -56px;
+}
+.benefits-banner img {
+  width: 1512px;
+  height: 240px;
 }
 /* Каталог*/
 
