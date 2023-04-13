@@ -333,7 +333,9 @@ body {
 }
 
 /* footer */
-
+.info {
+  margin-top: var(--margin-xl);
+}
 .info-footer {
   display: flex;
 }
@@ -341,7 +343,89 @@ body {
   display: flex;
   flex-direction: column;
 }
+.info-logo-footer {
+  width: 94px;
+  height: 54px;
+}
+.info-messenger-icon {
+  padding-top: 24px;
+}
 .info-messenger-icon img {
+  margin-right: 20px;
   width: 40px;
   height: 40px;
+}
+.info-navigation {
+  width: 1400x;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+}
+.info-information {
+  margin-right: 254px;
+}
+.info-navigation span {
+  font-weight: 500;
+  font-size: var(--fs-m);
+  line-height: 150%;
+}
+.info-navigation-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 42px;
+}
+.info-navigation-info a {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: var(--fs-s);
+  line-height: 124.52%;
+  color: var(--third-color);
+}
+.info-address {
+  padding-right: 190px;
+}
+.info-getintouch {
+  width: 320px;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+.info-container input {
+  background-color: inherit;
+  width: 320px;
+  border: none;
+  border-bottom: 1px solid #dfdfdf;
+  outline: none;
+  padding-top: 7px;
+}
+.info-container label {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: var(--fs-xs);
+  line-height: 124.52%;
+  color: var(--secondary-color);
+  position: absolute;
+}
+.info-container button {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  left: 285px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+.info-container img {
+  width: 20px;
+  height: 20px;
+}
+.footer {
+  padding-top: 90px;
+}
+.footer-nav {
+  margin-bottom: 30px;
+}
+.footer-nav a {
+  margin-right: 18px;
 }
